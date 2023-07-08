@@ -1,0 +1,172 @@
+*{
+    font-family: "Google Sans Regular";
+    user-select: none;
+}
+
+.container{
+    display: block;
+}
+
+.main1{
+    margin: 50px auto 15px auto;
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    border-style: solid;
+    border-color: rgba(231, 229, 229, 0.958);
+}
+
+.container1{
+    align-self: center;
+    width: 505px;
+    margin: 60px auto 40px auto;
+}
+
+.headicon{
+    text-align: center;
+}
+
+.container2{
+    text-align: center;
+    width: auto;
+}
+
+.row1{
+    padding: 8px;
+}
+
+.row2{
+    padding-bottom: 20px;
+}
+
+input{
+    padding: 2%;
+    background-color: rgb(250, 249, 249);
+    border-style: solid;
+    border-radius: 10px;
+    width: 370px;
+    height: 35px;
+    color: #747474;
+    border-radius: 5px;
+    border-color: rgb(195, 194, 194);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.formbutton{
+    margin: 0px auto 0px auto;
+    width: 395px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: #67B6FB;
+    border-color: #67B6FB;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px ;
+    font-weight: 500;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    transition: 0.2s;
+}
+
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation: an1 1s ease infinite;
+    
+}
+
+@keyframes an1 {
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+}
+
+.container2{
+    text-align: center;
+    width: auto;
+}
+
+
+.hrule1{
+    display: block;
+    width: 180px;
+    position: relative;
+    left: 58px;
+    top: 20px;
+}
+
+
+.hruletext{
+    position: relative;
+    margin: 5px auto 5px auto;
+    width: 10px;
+    color: #747474;
+    font-size: 18px;
+}
+
+
+.hrule2{
+    display: block;
+    width: 170px;
+    position: relative;
+    left: 280px;
+    bottom: 17px;
+}
+
+.container4 img{
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+.container4{
+    margin: 14px auto 8px auto;
+}
+
+.container4 a{
+    font-size: 19px;
+    color: #365188;
+}
+
+.container5{
+    margin: 14px auto 20px auto;
+}
+
+.container5 a{
+    font-size: 17px;
+    color: #5b7dc1;
+}
+
+.main2{
+    margin: 0px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 505px;
+    border-style: solid;
+    border-color: rgba(231, 229, 229, 0.958);
+}
+
+.container6{
+    margin: 14px auto 20px auto;
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+.container6 a{
+    color: #49a7e6;
+}
+
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main1">
+            <div class="container1">
+                <div class="headicon">
+                    <img src="instawritten__1_-removebg-preview.png" alt="Instaicon" width="275px" height="80px">
+                </div>
+            </div>
+            <div class="container2">
+                <form action="">
+                    <div class="row1"> 
+                        <label for="user"></label>
+                        <input type="text" name="user" placeholder="Phone number, username, or email">
+                    </div>
+    
+                    <div class="row2">
+                        <label for="pass"></label>
+                        <input type="password" name="pass" placeholder="Password">
+                    </div>
+    
+                    
+                    <button class="formbutton">Log in</button>
+                    
+
+                    <script>
+                        form_button = document.querySelector(".formbutton");
+
+                        form_button.onclick = function(){
+                            this.innerHTML = "<div class='loader'></div>";
+                            setTimeout(() => {
+                                this.style= "pointer-events : none";
+                            },2000);
+                        }
+                    </script>
+                        
+                    
+                    
+                </form>
+            </div>
+            <div class="container3">
+                <div class="hrule1">
+                    <hr>
+                </div>
+                <div class="hruletext">
+                    <b>OR</b>
+                </div>
+                <div class="hrule2">
+                    <hr>
+                </div>
+            </div>
+            <div class="container4">
+                <img src="facebook.png" alt="fb-icon" width="20px" height="20px"><a style="text-decoration: none" href="https://www.facebook.com/"><b>Log in with Facebook</b></a> 
+            </div>
+            <div class="container5">
+                <a style="text-decoration: none" href="https://www.instagram.com/accounts/password/reset/"><b>Forgot password?</b></a> 
+            </div>
+        </div>
+        <div class="main2">
+            <div class="container6">
+                Don't have an account?<a href="https://www.instagram.com/accounts/emailsignup/"><b>Sign up</b></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
